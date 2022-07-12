@@ -45,12 +45,13 @@
             this.btnSoma = new System.Windows.Forms.Button();
             this.btnSubtracao = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
+            this.txtAuxiliar = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn7
             // 
             this.btn7.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn7.Location = new System.Drawing.Point(12, 59);
+            this.btn7.Location = new System.Drawing.Point(12, 96);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(69, 58);
             this.btn7.TabIndex = 0;
@@ -61,7 +62,7 @@
             // btn8
             // 
             this.btn8.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8.Location = new System.Drawing.Point(87, 59);
+            this.btn8.Location = new System.Drawing.Point(87, 96);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(69, 58);
             this.btn8.TabIndex = 1;
@@ -72,7 +73,7 @@
             // btn9
             // 
             this.btn9.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9.Location = new System.Drawing.Point(162, 59);
+            this.btn9.Location = new System.Drawing.Point(162, 96);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(69, 58);
             this.btn9.TabIndex = 2;
@@ -83,7 +84,7 @@
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.Location = new System.Drawing.Point(162, 123);
+            this.btn6.Location = new System.Drawing.Point(162, 160);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(69, 58);
             this.btn6.TabIndex = 5;
@@ -94,7 +95,7 @@
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(87, 123);
+            this.btn5.Location = new System.Drawing.Point(87, 160);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(69, 58);
             this.btn5.TabIndex = 4;
@@ -105,7 +106,7 @@
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.Location = new System.Drawing.Point(12, 123);
+            this.btn4.Location = new System.Drawing.Point(12, 160);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(69, 58);
             this.btn4.TabIndex = 3;
@@ -116,7 +117,7 @@
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(162, 187);
+            this.btn3.Location = new System.Drawing.Point(162, 224);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(69, 58);
             this.btn3.TabIndex = 8;
@@ -127,7 +128,7 @@
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(87, 187);
+            this.btn2.Location = new System.Drawing.Point(87, 224);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(69, 58);
             this.btn2.TabIndex = 7;
@@ -138,7 +139,7 @@
             // btn1
             // 
             this.btn1.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(12, 187);
+            this.btn1.Location = new System.Drawing.Point(12, 224);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(69, 58);
             this.btn1.TabIndex = 6;
@@ -149,7 +150,7 @@
             // btn0
             // 
             this.btn0.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.Location = new System.Drawing.Point(12, 248);
+            this.btn0.Location = new System.Drawing.Point(12, 285);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(144, 58);
             this.btn0.TabIndex = 9;
@@ -161,8 +162,9 @@
             // 
             this.txtTela.Enabled = false;
             this.txtTela.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTela.Location = new System.Drawing.Point(12, 12);
+            this.txtTela.Location = new System.Drawing.Point(12, 49);
             this.txtTela.Name = "txtTela";
+            this.txtTela.ReadOnly = true;
             this.txtTela.Size = new System.Drawing.Size(294, 41);
             this.txtTela.TabIndex = 10;
             // 
@@ -170,7 +172,7 @@
             // 
             this.btnIgual.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIgual.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btnIgual.Location = new System.Drawing.Point(162, 248);
+            this.btnIgual.Location = new System.Drawing.Point(162, 285);
             this.btnIgual.Name = "btnIgual";
             this.btnIgual.Size = new System.Drawing.Size(69, 58);
             this.btnIgual.TabIndex = 11;
@@ -182,7 +184,7 @@
             // 
             this.btnDiv.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDiv.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.btnDiv.Location = new System.Drawing.Point(237, 59);
+            this.btnDiv.Location = new System.Drawing.Point(237, 96);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(69, 58);
             this.btnDiv.TabIndex = 12;
@@ -194,7 +196,7 @@
             // 
             this.btnMpx.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMpx.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.btnMpx.Location = new System.Drawing.Point(237, 123);
+            this.btnMpx.Location = new System.Drawing.Point(237, 160);
             this.btnMpx.Name = "btnMpx";
             this.btnMpx.Size = new System.Drawing.Size(69, 58);
             this.btnMpx.TabIndex = 13;
@@ -206,7 +208,7 @@
             // 
             this.btnSoma.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSoma.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.btnSoma.Location = new System.Drawing.Point(237, 248);
+            this.btnSoma.Location = new System.Drawing.Point(237, 285);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(69, 58);
             this.btnSoma.TabIndex = 14;
@@ -218,7 +220,7 @@
             // 
             this.btnSubtracao.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtracao.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.btnSubtracao.Location = new System.Drawing.Point(237, 187);
+            this.btnSubtracao.Location = new System.Drawing.Point(237, 224);
             this.btnSubtracao.Name = "btnSubtracao";
             this.btnSubtracao.Size = new System.Drawing.Size(69, 58);
             this.btnSubtracao.TabIndex = 15;
@@ -230,18 +232,28 @@
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpar.ForeColor = System.Drawing.Color.Red;
-            this.btnLimpar.Location = new System.Drawing.Point(13, 313);
+            this.btnLimpar.Location = new System.Drawing.Point(13, 350);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(293, 29);
             this.btnLimpar.TabIndex = 16;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click_1);
+            // 
+            // txtAuxiliar
+            // 
+            this.txtAuxiliar.Location = new System.Drawing.Point(206, 23);
+            this.txtAuxiliar.Name = "txtAuxiliar";
+            this.txtAuxiliar.ReadOnly = true;
+            this.txtAuxiliar.Size = new System.Drawing.Size(100, 20);
+            this.txtAuxiliar.TabIndex = 17;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 356);
+            this.ClientSize = new System.Drawing.Size(311, 389);
+            this.Controls.Add(this.txtAuxiliar);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnSubtracao);
             this.Controls.Add(this.btnSoma);
@@ -285,6 +297,7 @@
         private System.Windows.Forms.Button btnSoma;
         private System.Windows.Forms.Button btnSubtracao;
         private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.TextBox txtAuxiliar;
     }
 }
 

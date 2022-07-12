@@ -14,6 +14,8 @@ namespace Calculadora
     {
         // Variável global:
         bool clicouNoOperador = true;
+        int acumuladora;
+        string ultimoOp;
         public Form1()
         {
             InitializeComponent();
@@ -32,15 +34,44 @@ namespace Calculadora
             // Só atribuir na tela se não tiver clicado no operador:
             if (clicouNoOperador == false)
             {
-                txtTela.Text += btnClicado.Text;
+                acumuladora += int.Parse(txtTela.Text);
+                txtAuxiliar.Text = txtTela.Text + btnClicado.Text;
+                txtTela.Text = "";
                 clicouNoOperador = true;
+                ultimoOp = btnClicado.Text;
             }
             
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
+            switch(ultimoOp)
+            {
+                case "+":
+                    txtTela.Text = (acumuladora + int.Parse(txtTela.Text)).ToString();
+                    break;
+                case "-":
+                    txtTela.Text = (acumuladora - int.Parse(txtTela.Text)).ToString();
+                    break;
+                case "*":
+                    txtTela.Text = (acumuladora * int.Parse(txtTela.Text)).ToString();
+                    break;
+                case "/":
+                    txtTela.Text = (acumuladora / int.Parse(txtTela.Text)).ToString();
+                    break;
 
+
+
+            }
+        }
+
+        private void btnLimpar_Click_1(object sender, EventArgs e)
+        {
+            clicouNoOperador = true;
+            txtTela.Text = "";
+            acumuladora = 0;
+            ultimoOp = "";
+            txtAuxiliar.Text = "";
         }
     }
 }

@@ -9,3 +9,14 @@ C:\Users\estevao.roliveira\Documents\UC12\Calculadora\Calculadora\obj\Debug\Calc
 C:\Users\estevao.roliveira\Documents\UC12\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\estevao.roliveira\Documents\UC12\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\estevao.roliveira\Documents\UC12\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\guilherme.cmacedo3\Documents\GitHub\CalculadoraUC12\Calculadora\obj\Debug\Calculadora.pdb
